@@ -15,14 +15,13 @@ body {
 
 h1 {
     text-align: center;
-    border-bottom: 10px solid darkgray;
+    border-bottom: 5px solid lightblue;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
 
 h2 {
   text-align: center;
-  border-bottom: 10px solid lightslategray;
   margin-bottom: 20px;
   padding-bottom: 10px;
 
