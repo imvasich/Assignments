@@ -38,6 +38,12 @@ a:hover {
     text-decoration: yellow;
 }
 
+img {
+  width: 50%;
+  height: auto;
+  min-width: 430px;
+}
+
 /*Devices wider than phones: these are changes you want to make once the width gets wider*/
 
 @media only screen and (min-width: 481px) {
