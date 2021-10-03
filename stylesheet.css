@@ -28,6 +28,13 @@ h2 {
   font-family:headerTwo;
 }
 
+h3 {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family:headerTwo;
+}
+
 a {
     color: lightslategray;
     text-decoration: none;
@@ -63,6 +70,32 @@ img {
 
 div fontone {
   font-family:body;
+}
+
+#headline1 {
+      background-image: url(kellaurenlogo.png);
+      background-repeat: no-repeat;
+      background-position: left top;
+      padding-top:20px;
+      margin-bottom:20px;
+
+#links {
+  font-family:body;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#links td, #links th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#links th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color:lightblue;
+  color: white;
 }
 /*Devices wider than phones: these are changes you want to make once the width gets wider*/
 
