@@ -15,7 +15,7 @@ body {
 
 h1 {
     color: darkgray;
-    text-align: right;
+    text-align: left;
     border-bottom: 10px solid lightblue;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -52,6 +52,11 @@ img {
   width: 50%;
   height: auto;
   min-width: 430px;
+}
+
+ul.a {
+  list-style-type: circle;
+  color: lightslategray;
 }
 
 @font-face {
