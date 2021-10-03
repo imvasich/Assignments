@@ -18,23 +18,26 @@ h1 {
     border-bottom: 10px solid lightblue;
     margin-bottom: 20px;
     padding-bottom: 10px;
+    font-family:headerOne;
 }
 
 h2 {
   text-align: left;
   margin-bottom: 20px;
   padding-bottom: 10px;
-
+  font-family:headerTwo;
 }
 
 a {
     color: lightslategray;
     text-decoration: none;
+    font-family:body;
 }
 
 a:hover {
     color: lightblue;
     text-decoration: lightblue;
+    font-family:body;
 }
 
 img {
@@ -43,13 +46,23 @@ img {
   min-width: 430px;
 }
 
-@@font-face {
-  font-family:'Open Sans', sans-serif;
+@font-face {
+  font-family:headerOne;
+  src:url(OpenSans_Condensed-Bold.ttf);
+}
+
+@font-face {
+  font-family:headerTwo;
+  src:url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family:body;
   src:url(OpenSans-Light.ttf);
 }
 
 div fontone {
-  font-family:'Open Sans', sans-serif;
+  font-family:body;
 }
 /*Devices wider than phones: these are changes you want to make once the width gets wider*/
 
