@@ -43,6 +43,14 @@ img {
   min-width: 430px;
 }
 
+@@font-face {
+  font-family:'Open Sans', sans-serif;
+  src:url(OpenSans-Light.ttf);
+}
+
+div fontone {
+  font-family:'Open Sans', sans-serif;
+}
 /*Devices wider than phones: these are changes you want to make once the width gets wider*/
 
 @media only screen and (min-width: 481px) {
