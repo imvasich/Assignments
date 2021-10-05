@@ -57,6 +57,7 @@ img {
 img:hover {
   width: 70%;
   height: auto;
+  transition: width 2s,
 }
 
 ul.a {
