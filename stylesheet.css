@@ -54,10 +54,21 @@ img {
   min-width: 430px;
 }
 
+img:hover {
+  width: 70%;
+  height: auto;
+}
+
 ul.a {
   list-style-type: circle;
   color: lightslategray;
 }
+
+#p1 {
+  background-color:rgba(3,48,252,0.3);
+}
+
+
 
 @font-face {
   font-family:headerOne;
