@@ -16,7 +16,6 @@ body {
 h1 {
     color: darkgray;
     text-align: left;
-    border-bottom: 10px solid lightblue;
     margin-bottom: 20px;
     padding-bottom: 10px;
     font-family:headerOne;
@@ -54,10 +53,14 @@ img {
   min-width: 430px;
 }
 
-img:hover {
+/*img:hover {
   width: 70%;
   height: auto;
   transition-duration: width 2s,
+}*/
+
+ul {
+  list-style-type: none;
 }
 
 ul.a {
@@ -156,4 +159,14 @@ main {
         text-align: left;
     }
 
-}
+    nav#ordering ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #logo {order: 2}
+    #wikipedia {order: 1}
+    #portfolio {order: 3}
+
+}/*end of media query*/
