@@ -169,4 +169,14 @@ main {
     #wikipedia {order: 1}
     #portfolio {order: 3}
 
+    .container {
+      display: flex;
+    }
+    aside {
+      width: 30%;
+    }
+
+    main {
+      width: 70%;
+    }
 }/*end of media query*/
