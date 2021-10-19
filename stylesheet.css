@@ -57,7 +57,7 @@ img {
 img:hover {
   width: 70%;
   height: auto;
-  transition: width 2s,
+  transition-duration: width 2s,
 }
 
 ul.a {
@@ -114,6 +114,35 @@ div fontone {
   text-align: left;
   background-color:lightblue;
   color: white;
+}
+
+nav#ordering {
+  text-align: center;
+}
+
+nav#ordering a{
+  display: block;
+}
+
+footer h1{
+  text-align: center;
+}
+
+nav#side-to-side a {
+  display: block;
+  text-align: center;
+}
+
+aside {
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+#thumbnails img {
+  width: 100%;
 }
 /*Devices wider than phones: these are changes you want to make once the width gets wider*/
 
