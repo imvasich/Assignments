@@ -1,0 +1,96 @@
+
+body {
+    /*background-image: url(http://placepattern.com/200/400);*/
+    color: darkgray;
+    font-family: body;
+    margin: 10px;
+}
+
+h1 {
+    color: darkgray;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: headerOne;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: headerTwo;
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family:headerTwo;
+}
+
+a {
+    color: lightslategray;
+    text-decoration: none;
+    font-family:body;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: lightblue;
+    font-family:body;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family:headerOne;
+  src:url(OpenSans_Condensed-Bold.ttf);
+}
+
+@font-face {
+  font-family:headerTwo;
+  src:url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family:body;
+  src:url(OpenSans-Light.ttf);
+}
+
+
+header {
+  grid-area: header;
+
+}
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+aside.image {
+  grid-area: sidebar;
+}
+footer {
+  grid-area: footer;
+}
+
+div.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 10px;
+  align-items: start;
+  justify-content: start;
+  grid-template-areas:
+    "header header header header"
+    "main main sidebar aside"
+    "footer footer footer footer";
+
+}
+
+/*Devices wider than phones: these are changes you want to make once the width gets wider*/
