@@ -48,7 +48,6 @@ a:hover {
 }
 
 img {
-  width: 100%;
   height: auto;
   min-width: 430px;
 }
@@ -193,13 +192,6 @@ main {
 #thumbnails img {
   width: 100%;
 }
-
-div.box {
-  display: grid;
-  grid-template-columns: auto;
-
-}
-/*Devices wider than phones: these are changes you want to make once the width gets wider*/
 
 @media only screen and (min-width: 481px) {
 
