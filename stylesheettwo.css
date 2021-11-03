@@ -44,6 +44,10 @@ img {
   width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
 @font-face {
   font-family:headerOne;
   src:url(OpenSans_Condensed-Bold.ttf);
