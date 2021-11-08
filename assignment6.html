@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="Assignment 6: jQuery & JavaScript">
+ <link rel="stylesheet" href="stylesheettwo.css">
+ <title>Assignment 6: Web Design II</title>
+</head>
+<body>
+
+  <header>
+    <h1 id="color">John Resig, jQuery creator and JavaScript ninja</h1>
+    <script>
+      function myFunction() {
+      document.getElementById("color").style.fontSize = "25px";
+      document.getElementById("color").style.color = "white";
+      }
+    </script>
+
+    <button type="button" onclick="myFunction()">Click Me!</button>
+  </header>
+
+  <aside>
+    <figure>
+      <img src="images/johnresig.jpeg">
+      <figcaption><p>John Resig, creator of jQuery</p>
+    </figure>
+  </aside>
+
+  <main>
+  <figure>
+    <figcaption>
+      <p>John Reisg on building jQuery (video from Khan Accademy Computing):</p>
+    </figcaption>
+    <video width="320" height="240" controls>
+      <source src="media/johnresig.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+  </figure>
+  </main>
+
+
+
+</body>
+</html>
