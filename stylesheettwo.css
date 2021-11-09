@@ -48,6 +48,10 @@ figure {
   margin: 0;
 }
 
+figure img {
+  width: 30%;
+}
+
 @font-face {
   font-family:headerOne;
   src:url(OpenSans_Condensed-Bold.ttf);
@@ -79,6 +83,7 @@ main {
 aside.image {
   grid-area: sidebar;
 }
+
 footer {
   grid-area: footer;
 }
